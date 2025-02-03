@@ -5,5 +5,26 @@
 /besu-data/database/*
 /besu-data/key
 
+# React dependencies
+/sample-react-app/node_modules
+/sample-react-app/.pnp
+/sample-react-app/.pnp.js
+
+# React testing
+/sample-react-app/coverage
+
+# React production
+/sample-react-app/build
+
+# React misc
+/sample-react-app/.env.local
+/sample-react-app/.env.development.local
+/sample-react-app/.env.test.local
+/sample-react-app/.env.production.local
+
+npm-debug.log*
+/sample-react-app/yarn-debug.log*
+/sample-react-app/yarn-error.log*
+
 # System files
 .DS_Store
