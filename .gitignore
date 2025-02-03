@@ -5,6 +5,11 @@
 /besu-data/database/*
 /besu-data/key
 
+# Hardhat compile and deployments
+/hardhat/artifacts/*
+/hardhat/cache/*
+/hardhat/node_modules/*
+
 # React dependencies
 /sample-react-app/node_modules
 /sample-react-app/.pnp
