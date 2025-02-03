@@ -1,0 +1,9 @@
+# besu-data
+/besu-data/DATABASE_METADATA.json
+/besu-data/VERSION_METADATA.json
+/besu-data/caches/*
+/besu-data/database/*
+/besu-data/key
+
+# System files
+.DS_Store

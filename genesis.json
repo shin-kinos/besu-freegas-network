@@ -1,0 +1,47 @@
+{
+    "description": "This is a sample genesis block data for PoW (ethash) on Besu's private net.",
+    "author": {
+        "name": "Shintaro Kinoshita",
+        "contact": "shintaro.kinoshita@e1datascience.co.uk",
+        "gitHub": "https://github.com/shin-kinos"
+    },
+    "referenceLink": [
+        "https://github.com/hyperledger/besu/tree/main/config/src/main/resources/dev.json",
+        "https://besu.hyperledger.org/private-networks/tutorials/ethash",
+        "https://besu.hyperledger.org/stable/private-networks/how-to/configure/free-gas"
+    ],
+    "config": {
+        "chainId": 4649,
+        "londonBlock": 0,
+        "zeroBaseFee": true,
+        "contractSizeLimit": 2147483647,
+        "ethash": {
+            "fixeddifficulty": 100
+        }
+    },
+    "nonce": "0x42",
+    "baseFeePerGas":"0x0",
+    "timestamp": "0x0",
+    "extraData": "0x11bbe8db4e347b4e8c937c1c8370e4b5ed33adb3db69cbdb7a38e1e50b1b82fa",
+    "gasLimit": "0x1fffffffffffff",
+    "difficulty": "0x10000",
+    "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "coinbase": "0x0000000000000000000000000000000000000000",
+    "alloc": {
+        "fe3b557e8fb62b89f4916b721be55ceb828dbd73": {
+            "privateKey": "8f2a55949038a9610f50fb23b5883af3b4ecb3c3bb792cbcefbd1542c692be63",
+            "comment":  "This is coinbase account in PoW - the balance starts from 1 Wei but it will rapidly increase!",
+            "balance": "0x1"
+        },
+        "627306090abaB3A6e1400e9345bC60c78a8BEf57": {
+            "privateKey": "c87509a1c067bbde78beb793e6fa76530b6382a4c0241e5e4a9ec0a0f44dc0d3",
+            "comment": "This is standard participant account - the balance is 9999000000000000000000 Wei (9999 ETH).",
+            "balance": "0x21e0c0013070adc0000"
+        },
+        "f17f52151EbEF6C7334FAD080c5704D77216b732": {
+            "privateKey": "ae6ae8e5ccbfb04590405997ee2d52d2b330726137b875053c36d94e974d162f",
+            "comment": "This is another standard participant account - the balabce is 0 Wei.",
+            "balance": "0x0"
+        }
+    }
+}
